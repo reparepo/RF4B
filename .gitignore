@@ -1,0 +1,12 @@
+__pycache__/
+build/
+screenshots/
+src/__pycache__/
+logs/
+static/mark_test
+config.ini
+todo_backup.txt
+tests/
+.env
+.vscode
+中文版教程.md
