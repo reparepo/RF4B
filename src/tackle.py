@@ -88,7 +88,7 @@ class Tackle:
             case _:
                 # level -1 for backward compatibility
                 #duration = CAST_SCALE * (self.setting.cast_power_level - 1)
-                duration = CAST_SCALE * (self.setting.cast_power_level - random.uniform(-0.1, 0.1))
+                duration = CAST_SCALE * (self.setting.cast_power_level - random.uniform(-0.2, 0.2))
                 script.hold_left_click(duration)
 
         sleep(self.setting.cast_delay)
